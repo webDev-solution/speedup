@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "display_on_card": false,
+        "color_scheme": "primary",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_cETRJF": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "logo_max_width": 120,
+        "title": "Ready To Start Eating Healthier?",
+        "heading_size": "heading-template",
+        "site_review": false,
+        "rich_text": "<p>Only you know if you’ll like Good Protein. That’s why we offer a<span style=\"text-decoration:underline\"> <\/span><a href=\"https:\/\/goodprotein.ca\/pages\/termes-et-conditions?id=satisfaction\" title=\"https:\/\/goodprotein.ca\/pages\/termes-et-conditions?id=satisfaction\"><span style=\"text-decoration:underline\">60-day Satisfaction Guarantee<\/span><\/a><span style=\"text-decoration:underline\">.<\/span> Simply try it yourself. If you don’t absolutely love it. We will refund your money.<\/p>",
+        "display_on_card": true,
+        "content_width_desktop": "lg:w-1\/2",
+        "button_link": "shopify:\/\/products\/vanilla-milkshake-all-in-one-shake",
+        "button_label": "Try it Risk-Free",
+        "color_scheme": "scheme-c6e6ba7b-ff14-4a11-b51d-11911277929e",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_cETRJF"
+  ]
+}
