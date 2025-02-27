@@ -189,8 +189,10 @@
                 {{ image | img_url: 'master' }} 2400w
               "
               alt="{{ image.alt }}"
+            {% if section.settings.lazy_load %} loading="lazy" {% endif %}
+            fetchpriority="high"
             >
-          {% if section.settings.lazy_load %} loading="lazy" {% endif %}
+          
           {% endif %}
 
           {% if block.settings.image_mobile != blank %}
@@ -208,6 +210,7 @@
               "
               alt="{{ image.alt }}"
               {% if section.settings.lazy_load %} loading="lazy" {% endif %}
+              fetchpriority="high"
             >
           {% endif %}
         </div>
