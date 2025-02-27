@@ -225,7 +225,7 @@
                 {{ image | img_url: 'master' }} 2400w
               "
               alt="{{ image.alt }}"
-            {% if section.settings.lazy_load %} loading="lazy" {% endif %}
+            {% comment %} {% if section.settings.lazy_load %} loading="lazy" {% endif %} {% endcomment %}
             fetchpriority="high"  
             >
           
@@ -245,7 +245,7 @@
                 {{ image | img_url: 'master' }} 2400w
               "
               alt="{{ image.alt }}"
-              {% if section.settings.lazy_load %} loading="lazy" {% endif %}
+              {% comment %} {% if section.settings.lazy_load %} loading="lazy" {% endif %} {% endcomment %}
               fetchpriority="high"  
             >
           {% endif %}
