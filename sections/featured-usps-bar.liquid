@@ -12,7 +12,7 @@
           <div class="usps-box">
             <div class="usps-icon">
               {% if block.settings.image %}
-                <figure>{{ block.settings.image | image_url: height: 35 | image_tag: lazy: 'loading' }}</figure>
+                <figure>{{ block.settings.image | image_url: height: 35 | image_tag: loading: 'lazy' }}</figure>
               {% endif %}
             </div>
             <div class="usps-content">

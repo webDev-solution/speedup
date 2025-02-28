@@ -24,7 +24,7 @@
       <div class="product-section-6-col-2 one-third-product">
         {% if product.metafields.custom.nutrition_section.value.image != blank %}
           <figure>
-            {{ product.metafields.custom.nutrition_section.value.image | image_url: width: 600 | image_tag: lazy: 'loading' }}
+            {{ product.metafields.custom.nutrition_section.value.image | image_url: width: 600 | image_tag: loading: 'lazy' }}
           </figure>
         {% endif %}
       </div>
