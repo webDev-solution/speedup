@@ -403,7 +403,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" style=\"max-height: 37px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0012\/5573\/5405\/t\/400\/assets\/pandectes-logo.png?v=1739558031\" alt=\"logo\" \/>"
+      "logo": "<img class=\"cc-banner-logo\" style=\"max-height: 37px;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0012\/5573\/5405\/t\/400\/assets\/pandectes-logo.png?v=1739558031\" alt=\"logo\"  width=\"37\" height=\"37\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
